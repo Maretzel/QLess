@@ -62,4 +62,5 @@ Build:
 3. Run test to check the criterias
 4. Set MRT.CardManagement.Application as Start up Project then press F5
 5. Swagger should open
-6. Go to UI folder MRTCARDADMINPORTAL-UI. open via cmd and run ng serv -o
+6. Go to UI folder MRTCARDADMINPORTAL-UI. open via cmd and run npm install
+7. run ng serve -o
