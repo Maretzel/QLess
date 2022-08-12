@@ -1,0 +1,27 @@
+
+<div class="page-header">
+  <div class="container">
+    <h1>Load Card</h1>
+  </div>
+</div>
+<div class="container">
+  <form class="example-form">
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Card Id</mat-label>
+      <input matInput placeholder="" value="" #cardId>
+    </mat-form-field>
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Cash Inserted</mat-label>
+      <input matInput placeholder="" value="" #cashInserted>
+    </mat-form-field>
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Amount to Load</mat-label>
+      <input matInput placeholder="" value="" #amountToLoad>
+    </mat-form-field>
+
+    <div class="example-button-row">
+      <button mat-raised-button color="accent" (click)="onSubmit(cardId.value, cashInserted.value, amountToLoad.value)">Load</button>
+    </div>
+    {{message}}
+  </form>
+</div>
